@@ -35,6 +35,9 @@ Approximately 4% of the articles are crossposted. The articles are typical posti
 Each newsgroup is stored in a subdirectory, with each article stored as a separate file.
 ### Link to the Dataset
 http://archive.ics.uci.edu/ml/datasets/Twenty+Newsgroups
+### A sample article from the Dataset
+<img width="1105" alt="Screen Shot 2019-03-31 at 4 38 13 AM" src="https://user-images.githubusercontent.com/31596604/55282662-dd8ca200-536e-11e9-8bd9-9c2728c7b5e2.png">
+
 ## Implementation
 Multinomial Naive Bayes was used to classify a given article into one of the 20 newsgroups.The Multinomial Naive Bayes implementation from sklearn aswell as my own self implementation were used for the classification and their results were compared.It was seen that both the implementations gave the exact same results hence both the implementations must be same.
 ## Accuracy
